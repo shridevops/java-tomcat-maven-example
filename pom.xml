@@ -4,7 +4,7 @@
   <groupId>com.example</groupId>
   <artifactId>java-tomcat-maven-example</artifactId>
   <packaging>war</packaging>
-  <version>4.1-RELEASE</version>
+  <version>4.1-SNAPSHOT</version>
   <name>hello Maven Webapp</name>
   <url>http://maven.apache.org</url>
   <dependencies>
@@ -45,12 +45,12 @@
   <repository>
     <id>releases</id>
     <!-- nexus server details for release -->
-    <url>http://localhost:8089/repository/maven-releases/</url>
+    <url>http://localhost:8081/repository/maven-releases/</url>
   </repository>
   <snapshotRepository>
     <id>snapshots</id>
     <!-- nexus server details for snapshots-->
-    <url>http://localhost:8089/repository/maven-snapshots/</url>
+    <url>http://localhost:8081/repository/maven-snapshots/</url>
   </snapshotRepository>
 </distributionManagement>
 </project>
